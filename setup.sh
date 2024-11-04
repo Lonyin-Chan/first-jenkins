@@ -1,6 +1,3 @@
-bash
-
-Copy
 #!/bin/bash
 
 # Clear the screen
