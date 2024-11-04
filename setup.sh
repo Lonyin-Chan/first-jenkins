@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export TERM=xterm
 # Clear the screen
 clear
 
