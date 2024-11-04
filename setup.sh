@@ -1,5 +1,8 @@
 #!/bin/bash
+
+# Set TERM variable
 export TERM=xterm
+
 # Clear the screen
 clear
 
@@ -11,6 +14,9 @@ y=0
 dx=1
 dy=1
 
+# Ball character
+ball="⚽"
+
 # Loop to create the animation
 while true; do
     # Clear the screen
@@ -20,7 +26,7 @@ while true; do
     for ((i=0; i<height; i++)); do
         for ((j=0; j<width; j++)); do
             if [ $i -eq $y ] && [ $j -eq $x ]; then
-                echo -n "O"
+                echo -n "$ball"
             else
                 echo -n " "
             fi
