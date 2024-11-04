@@ -45,3 +45,4 @@ while true; do
 
     # Delay to control the speed of the animation
     sleep 0.05
+done
